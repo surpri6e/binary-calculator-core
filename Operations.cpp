@@ -169,8 +169,6 @@ std::string Operations::divide(std::string firstNumber, std::string secondNumber
         } else {
             result.push_back('0');
         }
-
-        std::cout << subDividend << '\t' << divider << '\t' << isCanMinus << std::endl;
     }
 
     return Casting::deletePrimaryZeros(result);
